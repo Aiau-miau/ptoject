@@ -1,0 +1,141 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left img{
+    width: 100px;
+}
+.middle img{
+    width: 12px;
+    height: 12px;
+}
+.end img{
+    width: 25px;
+    height: 25px;
+}
+.menu img{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    gap:1rem;
+
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 10px;
+}
+.aaa{
+    width: 20px;
+    height: 100vh;
+    padding-left: 10px;
+    display: flex;
+    flex-direction:column;
+    
+}
+img{
+    width: 20px;
+}
+.home{
+    display: flex;
+    gap:1rem;
+    margin:5px;
+}
+button{
+    display: flex;
+    gap: 1rem;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: white;
+    transition: 0.2s ease-in;
+}
+button:hover{
+    background-color: rgb(234, 233, 233);
+
+}
+.short{
+    display: flex;
+    gap:1rem;
+    margin: 5px;
+}
+.subs{
+    display: flex;
+    gap:1rem;
+    margin: 5px;
+}
+.yourchannel{
+    display: flex;
+    gap:1rem;
+    margin: 5px;
+}
+.history{
+    display: flex;
+    gap:1rem;
+    margin: 5px;
+}
+.playlist{
+    display: flex;
+    gap:1rem;
+    margin: 5px;
+}
+input{
+    width: 300px;
+    border:1px solid gray;
+    border-radius: 6px;
+}
+main{
+    margin-left: 220px;
+    padding: 20px;
+}
+.videos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap:20px;
+}
+.video-card{
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: left;
+}
+.video-card img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom:10px;
+}
+.video-card h4{
+    font-size: 15px;
+
+}
+.video-card p{
+    font-size: 13px;
+    color: gray;
+}
+.information{
+    display: flex;
+}
+.middle button{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+@media only screen and(max-width:376){
+        main{
+            display: flex;
+            flex-direction: column;
+        }
+}
